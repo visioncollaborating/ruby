@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Calendarios de Contenido</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Encabezado dinámico -->
+        <header class="calendar-header">
+            <h1 id="mainTitle">Cargando Título...</h1>
+            <h2 id="mainSubtitle">Cargando Subtítulo...</h2>
+            <p class="week-dates" id="weekDates">Cargando Fechas...</p>
+        </header>
+
+        <div class="carousel-container">
+            
+            <!-- Flechas principales para cambiar de Publicación -->
+            <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+
+            <!-- Aquí se inyectarán los posts dinámicamente desde el JS -->
+            <div class="slides-wrapper" id="slidesWrapper"></div>
+
+            <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+
+        </div>
+
+    </div>
+
+    <!-- Enlace al archivo de configuración semanal -->
+    <script src="js/data.js"></script>
+    <script src="js/config.js"></script>
+</body>
+</html>

@@ -2,85 +2,92 @@
    DATOS COMPARTIDOS DEL CALENDARIO (Modificar solo este archivo cada viernes)
    ========================================================================== */
 const CONFIG_SEMANAL = {
-    titulo: "Calendario Junio 2026",
+    titulo: "Calendario Julio 2026",
     cliente: "Ruby Sanchez",
-    rangoFechas: "✨ Semana del martes 30 de junio al sábado 04 de julio ✨",
+    rangoFechas: "✨ Semana del martes 07 al sábado 11 de julio ✨",
     usuarioInstagram: "rubysanchez.propiedades",
     avatarLetras: "RS",
 
     publicaciones: [
         {
-            tipo: "carrusel",
-            diaSemana: "Martes 30 de Junio",
-            copy: `🏢 ¡Oportunidad en Chorrillos! US$ 76,000 🔑
-¿Buscas una inversión inteligente? Este departamento de 2 dormitorios es la opción perfecta para rentar de inmediato. 📈 Cuenta con sala comedor en porcelanato, dormitorios interiores silenciosos y cocina con lavandería independiente. 🍳
-
-Ubicado en zona residencial, listo para generar rentabilidad desde el primer día. 🏠
-
-👇 ¿Quieres agendar tu visita o recibir más detalles? Escríbeme al privado.
-.
-.
-Contáctame y disfruta de tu nueva casa 🙌
-📞 Ruby Sánchez: 999.970.167`,
-            imagenes: ["img/30.jpg","img/30_2.jpg","img/30_3.jpg","img/30_4.jpg","img/30_5.jpg"] 
-        },
-        {
             tipo: "imagen",
-            diaSemana: "Jueves 02 de Julio",
-            copy: `📈 ¿Comprador informado o vendedor estratégico?
-Las reglas cambiaron: el precio ya no lo es todo. Hoy, tu cliente investiga, compara y prioriza su estilo de vida y su futuro financiero. 🧠
+            diaSemana: "Martes 07 de Julio",
+            copy: `¿Vas a comprar? No te saltes este paso. 🛑
 
-Entender estas nuevas tendencias es vital para destacar. El futuro inmobiliario no es para quienes esperan, sino para quienes se anticipan a lo que el mercado exige hoy. 🎯
+Un inmueble perfecto es aquel que tiene sus papeles impecables:
 
-👇 ¿Estás adaptando tu estrategia a las nuevas reglas del juego?
+- Título saneado.
+- Independización lista.
+- Documentos completos.
+
+Si necesitas guía para asegurar tu compra, hablemos. 💬
 .
 .
 Contáctame y disfruta de tu nueva casa 🙌
 📞 Ruby Sánchez: 999.970.167`,
-            imagenes: ["img/2.jpg"]
+            imagenes: ["img/7.jpg"] 
         },
         {
             tipo: "video",
-            diaSemana: "Viernes 03 de Julio",
-            copy: `📍 Dúplex moderno en Surco: Estilo y Conexión 🔑
-Vive en un hogar iluminado en Av. Tomás Marsano. Este dúplex cuenta con sala-comedor integrada, cocina abierta, 3 dormitorios y lavandería independiente con patio tendal. 🏢
+            diaSemana: "Jueves 09 de Julio",
+            copy: `¿Buscas calidad de vida en Surco? 🏠
 
-Zona Social: Espacios abiertos y modernos. 🛋️
-Distribución: 3 dormitorios (principal con baño). 🛏️
-Ubicación: Conectividad total. ⚡
+Este depa en Caminos del Inca combina ubicación, silencio y funcionalidad.
 
-💵 Alquiler: USD 785. (No mascotas).
+✅ 95m² en 3er piso (Vista externa + ventanas antirruido).
+✅ 2 dormitorios + cuarto de servicio.
+✅ Cochera + Depósito.
+✅ Rooftop con zona de parrilla.
 
-👇 ¿Quieres conocerlo? Escríbeme ahora.
+💵 Alquiler: USD 1,200
+
+¿Te interesa? Mándame un mensaje para enviarte los requisitos. 👇
+.
+.
+Contáctame y disfruta de tu nueva casa 🙌
+📞 Ruby Sánchez: 999.970.167`,
+            imagenes: ["img/9.jpg"]
+        },
+        {
+            tipo: "video",
+            diaSemana: "Viernes 10 de Julio",
+            copy: `¿Buscas una propiedad que se pague sola? 🚀
+
+Ubicada en zona de alto tránsito (Av. José María Seguín, SJM), esta multifamiliar es la mina de oro que buscabas:
+✅ 1er Piso: Depto completo + cochera.
+✅ 2do & 3er Piso: 8 habitaciones (5 con baño privado).
+✅ Potencial: Ideal para negocio de hospedaje o alquileres independientes.
+
+Inversión: USD 180,000. 💵
+
+¿Listo para tu próxima inversión inmobiliaria? Agenda tu visita hoy. 👇
 .
 .
 Contáctame y disfruta de tu nueva casa 🙌
 📞 Ruby Sánchez: 999.970.167`,
             imagenes: [
-                "img/3.jpg"
+                "img/10.jpg"
             ]
         },
         {
-            tipo: "video",
-            diaSemana: "Sábado 04 de Julio",
-            copy: `🌿 Casa de campo en Cieneguilla: Tu refugio soñado ☀️
-Escapa del ruido en esta propiedad de 1,020 m² en la 3era Etapa, a solo 5 minutos de Mesa de Piedra. Espacio, naturaleza y comodidad total para disfrutar en familia. 🏡
+            tipo: "carrusel",
+            diaSemana: "Sábado 11 de Julio",
+            copy: `¿Quieres una inversión que trabaje por ti? 💰
 
-Lo que la hace única:
+Edificio en Surco Pueblo con 4 departamentos rentados. ¡Traspaso inmediato!
 
-Zona social: Piscina, pérgola, parrilla y cocina amplia. 🍹
-Distribución: 5 dormitorios (2 con baño propio), ideal para todas las edades. 🛏️
-Capacidad: Cochera para 8 autos y jardín listo para tus proyectos. 🌳
-Datos clave: Independizada, sin mantenimiento y documentos en regla. 🔑
+✅ Independencia: Acceso separado para cada unidad.
+✅ Funcionalidad: 2 dormitorios por piso, medidores de luz independientes.
+✅ Ubicación: Cerca de todo (Ayacucho, Vía Expresa, Surco Pueblo).
 
-💵 Inversión: USD 340,000.
+Ideal para captar estudiantes, parejas o ejecutivos. Inversión estable, segura y con alta demanda. 📈
 
-👇 ¿Quieres conocerla? Escríbeme y coordinamos tu visita.
+Inversión: USD 255,000.
 .
 .
 Contáctame y disfruta de tu nueva casa 🙌
 📞 Ruby Sánchez: 999.970.167`,
-            imagenes: ["img/4.jpg"]
+            imagenes: ["img/11.jpg","img/11_2.jpg","img/11_3.jpg","img/11_4.jpg","img/11_5.jpg"]
         }
     ]
 };

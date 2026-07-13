@@ -3,36 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizador de Calendarios de Contenido</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#4f46e5">
+    <title>Revisión de publicaciones</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        
-        <!-- Encabezado dinámico -->
-        <header class="calendar-header">
-            <h1 id="mainTitle">Cargando Título...</h1>
-            <h2 id="mainSubtitle">Cargando Subtítulo...</h2>
-            <p class="week-dates" id="weekDates">Cargando Fechas...</p>
+    <main class="app">
+        <header class="header">
+            <p class="brand">Revisión de contenido</p>
+            <h1 id="clientName">Cargando...</h1>
+            <p id="weekDates"></p>
+            <div class="progress" aria-live="polite">
+                <span id="stepText">Publicación 1 de 4</span>
+                <div><i id="progressBar"></i></div>
+            </div>
         </header>
 
-        <div class="carousel-container">
-            
-            <!-- Flechas principales para cambiar de Publicación -->
-            <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+        <section id="content" aria-live="polite"></section>
+    </main>
 
-            <!-- Aquí se inyectarán los posts dinámicamente desde el JS -->
-            <div class="slides-wrapper" id="slidesWrapper"></div>
-
-            <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
-
-        </div>
-
-    </div>
-
-    <!-- Enlace al archivo de configuración semanal -->
-    <script src="js/data.js"></script>
-    <script src="js/config.js"></script>
+    <script src="data.js"></script>
+    <script src="config.js"></script>
 </body>
 </html>
